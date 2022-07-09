@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: rgb(141, 217, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: aliceblue;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow:0px 35px 35px rgb(0,0,0,0.1);
+    
+}
+
+.Text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255,255,255);
+
+}
+
+.Text .imgb{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.Text .imgb img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.Text h2{
+    color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 50000;
+    line-height: 1.4mm;
+
+
+}
+.text{
+    font-size: 0.8em;
+    font-weight: 400;
+
+}
+
+.contact{
+    padding-top: 40px;
+}
+.title{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.contact ul{
+    position: relative;
+}
+
+.contact ul li{
+position: relative;
+list-style: none;
+margin:9px 0;
+cursor: pointer;
+}
+
+.contact ul li .icons{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: lightblue;
+}
+
+.contact ul li span{
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.education li{
+margin-bottom: 15px;
+}
+.education h5{
+    color: rgb(123, 219, 251);
+    font-weight: 500;
+}
+.education h4:nth-child(2){
+    color: aliceblue;
+    font-weight:500 ;
+}
+.education h4{
+    color:rgb(196, 201, 205);
+    font-weight:300 ;
+}
+
+
+.language{
+   
+
+} 
+.about{
+      margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+color: rgb(0, 0, 136);
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 10px;
+font-weight:1000;
+}
+
+
+
+
+.box .left{
+
+    position: relative;
+    background:rgb(0,0,139);
+    padding: 40px;
+}
+
+.box .right{
+
+    position: relative;
+    background: aliceblue;
+    padding: 40px;
+}
+
+
+
+.box1{
+    position: relative;
+    width:100%;
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.box1 h4{
+    text-transform: uppercase;
+    color: rgb(0,0,0,.8);
+    font-weight: 900;
+   
+}
+
+
+.box1 .percent{
+    position: relative;
+    width:100%;
+    height: 14px;
+    background:rgb(205, 220, 244);
+   
+}
+
+.skills .box1 .percent div{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    background: rgb(123, 219, 251);
+} 
+
+p{
+    font-weight: 900;
+}
